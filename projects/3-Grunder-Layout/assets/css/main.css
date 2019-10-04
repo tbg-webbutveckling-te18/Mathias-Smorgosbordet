@@ -1,0 +1,29 @@
+html {
+    height: 100vh;
+}
+
+body {
+    background: #808080;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom right, #3fada8, #808080, #639);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom right, #3fada8, #808080, #639); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+}
+
+section#wrapper {
+    border: 10px solid black;
+    width: 80%;
+    min-height: 600px;
+    
+    margin: auto;
+}
+
+header {
+    width: 100%; /* standard on a block element */
+    height: 200px;
+    display: block; /* standard value */
+    border: 1px solid white;
+}
+
+header img {
+    
+}
