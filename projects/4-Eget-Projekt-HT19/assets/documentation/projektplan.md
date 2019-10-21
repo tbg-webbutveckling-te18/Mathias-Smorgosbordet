@@ -8,13 +8,13 @@
 - Nowhere town
 
 # Mål / Syfte / Vision med webbplatsen
-Sälja produkter, reklam, information, underhållning, webbaserat läromedel mm ?
+Fiskar av olika sorter
 
 # Målgrupp
-Ålder, kön, datorvana, förkunskaper, bakgrund (nationalitet, yrke, utbildning, religion etc) ?
+Vem som helst som är intreserad av fiskar
 
 # Research och inhämtning av material
-Länka in de webbplatser och det material ni inhämtat för er idé.
+Wikipedia section av Fiskar och googla runt olika sidor för fiskar
 
 ## Beskrivning av webbplatsen
 
