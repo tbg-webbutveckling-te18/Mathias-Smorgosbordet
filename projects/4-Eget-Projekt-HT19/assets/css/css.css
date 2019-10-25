@@ -66,3 +66,24 @@ main aside {
 section.mainPoint {
     flex: 2.5;
 }
+
+footer ul.footerLinks {
+    display: flex;
+    justify-content: space-around;
+    
+    list-style: none;
+    padding: 0px;
+    margin-left: 0px;
+}
+
+footer {
+    border: 1px solid red;
+    padding: 10px;
+    color: white;
+}
+
+ul.footerLinks a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}

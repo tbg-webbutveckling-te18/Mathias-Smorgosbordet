@@ -30,6 +30,9 @@ T.ex. “Hemsidan ska andas kvalitet och exklusivitet, för att [företaget] har
 ➢	Beskriv idén med kompositionen på de olika sidorna 
     ○	logotyper
     ○	Färger
+        * https://uigradients.com/#BetweenTheClouds
+        * #514A9D
+        * #24C6DC
     ■	Body bgcolor
     ■	Header 
     ■	Font
