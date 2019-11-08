@@ -55,3 +55,6 @@ Finns det knappar, hotspots, menyval eller andra former av inmatningar från anv
 
 # Funktioner 
 Vad ska det finnas för funktioner? Viktiga? Mindre viktiga? Beskriv och förklara så utförligt du kan och skriv dem i en prioriteringslista: Viktigast först! 
+
+# Rubrik - Utvärdering
+Arbetet har gått jätte bra. Först var problemet om mitt hitta på vad sidan skulle handla om men vi fixade det med att göra sidan till info av fiskar. Planeringar gick som jag hade planerat och problem fanns inte riktigt förutom bilder till visa fiskar var mera cartoon så jag använde photo editor cut out brush on keep mode för att göra en bild genomskinligt så det visas bara fisken. Jag vet inte hur jag kan förbättra mitt arbete för mina tankar är tomma och kan inte riktigt komma up mera.
