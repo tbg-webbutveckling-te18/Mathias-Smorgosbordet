@@ -32,3 +32,60 @@ img.portFour, img.portFive, img.portSix {
 img.portSeven, img.portEight, img.portNine {
     flex: 1;
 }
+img {
+    transition: all 5s;
+}
+
+img.portOne:hover {
+    box-shadow: 5px 5px 5px black;
+    transform: rotate(180deg);
+
+}
+
+img.portTwo:hover {
+    box-shadow: 5px 5px 5px yellow;
+    transform: rotate(30deg);
+
+}
+
+img.portThree:hover {
+    box-shadow: 5px 5px 5px white;
+    transform: rotate(360deg);
+
+}
+
+img.portFour:hover {
+    box-shadow: 5px 5px 5px gray;
+    transform: rotate(90deg);
+
+}
+
+img.portFive:hover {
+    box-shadow: 5px 5px 5px green;
+    transform: rotate(180deg);
+
+}
+
+img.portSix:hover {
+    box-shadow: 5px 5px 5px pink;
+    transform: rotate(270deg);
+
+}
+
+img.portSeven:hover {
+    box-shadow: 5px 5px 5px orange;
+    transform: rotate(30deg);
+
+}
+
+img.portEight:hover {
+    box-shadow: 5px 5px 5px red;
+    transform: rotate(360deg);
+
+}
+
+img.portNine:hover {
+    box-shadow: 5px 5px 5px purple;
+    transform: rotate(90deg);
+
+}
