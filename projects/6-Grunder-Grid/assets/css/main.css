@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+body{
+    background-color: firebrick;
+    margin: 0;
+    padding: 0;
+}
+
+.gridContainer {
+    background-color: blue;
+    
+    width: 80vw;
+    height: 100vh;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    box-shadow: 3px 0 10px black, -3px 0 10px black;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+
+.gridItem:nth-child(1){
+    background-color: forestgreen;
+    
+}
+
+.gridItem:nth-child(2){
+    background-color: orange;
+    
+}
+
+.gridItem:nth-child(3){
+    background-color: maroon;
+    
+}
+
+.gridItem:nth-child(4){
+    background-color: gold;
+    
+}
+
+.gridItem:nth-child(5){
+    background-color: indigo;
+    
+}
