@@ -19,30 +19,16 @@ body{
     
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px 150px 150px;
     
 }
 
-.gridItem:nth-child(1){
+.gridItem:nth-child(even){
     background-color: forestgreen;
     
 }
 
-.gridItem:nth-child(2){
+.gridItem:nth-child(odd){
     background-color: orange;
-    
-}
-
-.gridItem:nth-child(3){
-    background-color: maroon;
-    
-}
-
-.gridItem:nth-child(4){
-    background-color: gold;
-    
-}
-
-.gridItem:nth-child(5){
-    background-color: indigo;
     
 }
