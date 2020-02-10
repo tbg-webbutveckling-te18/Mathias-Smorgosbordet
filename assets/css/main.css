@@ -15,7 +15,9 @@ main, section.grunderEtt, section.grunderTwo, section.grunderThree, section.grun
 }
 
 main {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px 150px;
     min-height: 100px;
 }
 
