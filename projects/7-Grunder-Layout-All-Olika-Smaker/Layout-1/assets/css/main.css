@@ -1,1 +1,51 @@
 @charset "utf-8";
+
+html {
+    min-height: 100%;
+}
+
+body {
+    background-color: black;
+    min-height: 100%;
+}
+
+header.namePlate {
+    background-color: red;
+}
+
+.menuLinks {
+    background-color: red;
+}
+
+.gridContainerfather {
+    display: grid;
+}
+
+.gridContainerone {
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 200px;
+    grid-gap: 10px;
+    
+    min-width: 50px;
+    min-height: 100px;
+    
+    margin: auto;
+}
+
+.gridContainertwo {
+    display: grid;
+}
+
+.largeBoxes {
+    background-color: green;
+}
+
+.mediumBoxes {
+    background-color: red;
+}
+
+.cpStuff {
+    background-color: red;
+}
