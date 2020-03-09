@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+html {
+    min-height: 100%;
+}
+
+body {
+    background-color: orange;
+    min-height: 100%;
+}
+
+.headerandimgFather {
+    display: flex;
+    justify-content: space-between;
+    
+    min-width: 50px;
+    min-height: 150px;
+}
+
+header {
+    background-color: aqua;
+    
+    width: 400px;
+    height: 120px;
+}
+
+.menuLinks {
+    display: flex;
+    justify-content: center;
+    
+    background-color: aqua;
+    
+    height: 50px;
+}
+
+.gridcontainerFather {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    min-width: 50px;
+    min-height: 100px;
+    
+    margin: auto;
+}
+
