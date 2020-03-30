@@ -41,11 +41,12 @@ ul {
 }
 
 .imageScroller {
-    
+    background-color: black;
 }
 
 .productGallery {
-    
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
 }
 
 .endLine {
