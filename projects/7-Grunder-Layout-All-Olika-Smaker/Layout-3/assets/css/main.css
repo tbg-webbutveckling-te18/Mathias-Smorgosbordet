@@ -41,9 +41,23 @@ ul {
 }
 
 .imageScroller {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     background-color: black;
     width: 100%;
-    height: 400px;
+    height: 450px;
+}
+
+.pointerLeft {
+    width: 300px;
+}
+
+.imageStuff {
+    width: 300px;
+}
+
+.pointerRight{
+    width: 370px;
 }
 
 .productGallery {
