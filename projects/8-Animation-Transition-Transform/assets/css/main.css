@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+body {
+    max-height: 100%;
+    background-color: forestgreen;
+}
+
+
+.thesiblingSelector h1 + h2 {
+    color: red;
+}
+
+.fadeIn {
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeOut {
+    animation: fadeOut 2s;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    
+    to {
+        opacity: 0;
+    }
+}
+
+.colorChange {
+    animation: colorChange 6s;
+}
+
+@keyframes colorChange {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+.goShrink {
+    margin: 50px auto;
+    width: 300px;
+    height: 150px;
+    font-size: 10px;
+    line-height: 150px;
+    background-color: fuchsia;
+    color: #fff;
+    text-align: center;
+    transition: .3s ease;
+}
+
+.goShrink:hover {
+    transform: scale(0.6);
+}
+
+.goGrow {
+    margin: 50px auto;
+    width: 300px;
+    height: 150px;
+    font-size: 10px;
+    line-height: 150px;
+    background-color: fuchsia;
+    color: #fff;
+    text-align: center;
+    transition: .3s ease;
+}
+
+.goGrow:hover {
+    transform: scale(1.5);
+}
+
+.speenRotate {
+    margin: 50px auto;
+    width: 300px;
+    height: 150px;
+    font-size: 10px;
+    line-height: 150px;
+    background-color: fuchsia;
+    color: #fff;
+    text-align: center;
+    transition: .3s ease;
+}
+
+.speenRotate:hover {
+    transform: rotate(60deg);
+}
+
+
