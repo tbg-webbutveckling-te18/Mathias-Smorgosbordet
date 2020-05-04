@@ -92,7 +92,95 @@ body {
 }
 
 .speenRotate:hover {
-    transform: rotate(60deg);
+    transform: rotate(360deg);
 }
+
+.squaretoCircle {
+    margin: 50px auto;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    animation: circle 10s infinite ease-in-out;
+    background-color: aqua;
+}
+
+@keyframes circle {
+    
+    0% {
+        transform: translateX(0px) translateY(0px) rotate(0deg);
+        border-radius: 0px;
+    }
+    
+    25% {
+        transform: translateX(-20px) translateY(-10px);
+        border-radius: 20%;
+    }
+    
+    75% {
+        transform: translateX(0px) translateY(0px) rotate(0deg);
+        border-radius: 0px;
+    }
+    
+    100% {
+        transform: translateX(0px) translateY(0px) rotate(0deg);
+        border-radius: 0px;
+    }
+}
+
+
+.borderInset {
+    width: 500px;
+    height: 100px;
+    background: gray;
+    border-style: inset;
+}
+
+
+.boxShadow {
+    width: 300px;
+    height: 200px;
+    background: blue;
+    -webkit-box-shadow: 10px 10px 5px 0px black;
+    -moz-box-shadow: 10px 10px 5px 0px black;
+    box-shadow: 10px 10px 5px 0px black;
+}
+
+.imgFilter {
+    margin: 50px auto;
+    width: 300px;
+    height: 150px;
+    filter: grayscale(100%);
+}
+
+.colorAnimation {
+    margin: 50px auto;
+    width: 300px;
+    height: 150px;
+    animation: rainbow 10s infinite ease-in-out;
+}
+
+
+@keyframes rainbow {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
